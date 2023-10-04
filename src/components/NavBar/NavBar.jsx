@@ -2,7 +2,7 @@ import CartWidget from "../CartWidget/CartWidget";
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-tertiary-color d-flex justify-content-around sticky-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">Torres de Buenos Aires Iluminacion</a>
 
