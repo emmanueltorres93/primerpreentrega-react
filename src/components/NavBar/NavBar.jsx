@@ -5,17 +5,17 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <Link to="/" className="navbar-brand">MangaStore</Link>
+                <Link to="/" className="navbar-brand">Torres de Buenos Aires</Link>
 
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
-                        <NavLink to="/category/shonen" className="nav-link">Shonen</NavLink>
+                        <NavLink to="/category/chandeliers" className="nav-link">Arañas</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/category/deportes" className="nav-link">Deportes</NavLink>
+                        <NavLink to="/category/lamps" className="nav-link">Lamparas</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/category/populares" className="nav-link">Populares</NavLink>
+                        <NavLink to="/category/sconces" className="nav-link">Apliques</NavLink>
                     </li>
                 </ul>
 
