@@ -1,22 +1,20 @@
 import { useContext } from "react";
-import { CartContext } from "../../context/CartContext";
-import { Link } from "react-router-dom";
+import CartContext from "../../context/CartContext";
+import { getCartQuantity } from "../../utils";
 
 const CartWidget = () => {
-  const { totalQuantity } = useContext(CartContext);
-  return (
-    
-    <Link to="/cart">
-      <button className="btn btn-warning">
-        <span
-          style={{ visibility: totalQuantity > 0 ? "visible" : "hidden" }}
-          className="badge rounded-pill bg-danger fs-6"
-        >
-          {totalQuantity}
-        </span>
-      </button>
-    </Link>
-  );
+  const { cart } = useContext(CartContext);
+
+  const quantity = getCartQuantity(cart);
+
+  return <div className="cart-counter">
+            <button type="button" className="btn position-relative button-cart">
+              < i className="bi bi-cart3"/>
+              <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {quantity > 0 ? quantity : "0"}
+              </span>
+            </button>
+    </div>;
 };
 
 export default CartWidget;
