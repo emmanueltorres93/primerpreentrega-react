@@ -15,7 +15,7 @@ Firebase
 
 # Instalación
 1. Clonar el repositorio desde GitHub.
-https://github.com/luqpizarro/limbohatsreact.git
+https://github.com/emmanueltorres93/primerpreentrega-react.git
 
 2. Para levantar el proyecto se debe ejecutar los siguientes comandos:
 
