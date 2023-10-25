@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { BrowserRouter } from "react-router-dom"
-import { initializeApp} from "firebase/app"
+import { initializeApp } from "firebase/app"
 import App from './App.jsx'
 import './index.css'
 
@@ -15,6 +15,8 @@ const firebaseConfig = {
   messagingSenderId: import.meta.env.VITE_FIRESTORE_MESSAGIN_SENDER_ID,
   appId: import.meta.env.VITE_FIRESTORE_APP_ID,
 };
+
+initializeApp(firebaseConfig);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

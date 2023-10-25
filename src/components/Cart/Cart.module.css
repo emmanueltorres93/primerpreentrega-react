@@ -5,13 +5,13 @@
 
 .img-cart {
     object-fit: cover;
-    width: 150px;
+    width: 100px;
     height: 150px;
     margin: 10px;
     margin-left: 50px;
     border-radius: 10px;
     border: solid 1px gray;
-    box-shadow: 2px 2px 4px salmon;
+    box-shadow: 2px 2px 4px rgb(100, 97, 97);
 }
 
 .li-cart {
@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     border: solid 1px gray;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px rgb(100, 97, 97);
     width: 60%;
     margin: auto;
     margin-top: 20px;
@@ -31,7 +31,7 @@
     text-align: center;
     margin-top: 35px;
     font-size: 1.5rem;
-    text-decoration: underline salmon;
+    text-decoration: underline rgb(100, 97, 97);
 }
 
 .empty-cart-p {
@@ -43,7 +43,7 @@
     border-radius: 10px;
     font-size: 1.6rem;
     color: black;
-    background-color: salmon;
+    background-color: rgb(100, 97, 97);
 }
 
 .empty-cart-btn {
@@ -53,7 +53,7 @@
     margin: auto;
     margin-top: 50px;
     color: black;
-    background-color: salmon;
+    background-color: rgb(100, 97, 97);
     border-radius: 10px;
 }
 
@@ -87,7 +87,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
     color: black;
-    background-color: salmon;
+    background-color: rgb(100, 97, 97);
     border-radius: 10px;
     margin-left: 530px;
 }
@@ -99,7 +99,7 @@
     margin-bottom: 30px;
     color: black;
     border-radius: 10px;
-    background-color: salmon;
+    background-color: rgb(100, 97, 97);
     margin-left: 50px;
 }
 

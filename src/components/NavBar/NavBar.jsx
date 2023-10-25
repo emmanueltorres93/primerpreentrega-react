@@ -9,13 +9,13 @@ const NavBar = () => {
 
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
-                        <NavLink to="/category/chandeliers" className="nav-link">Arañas</NavLink>
+                        <NavLink to="/category/crañas" className="nav-link">Arañas</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/category/lamps" className="nav-link">Lamparas</NavLink>
+                        <NavLink to="/category/lamparas" className="nav-link">Lamparas</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/category/sconces" className="nav-link">Apliques</NavLink>
+                        <NavLink to="/category/apliques" className="nav-link">Apliques</NavLink>
                     </li>
                 </ul>
 
