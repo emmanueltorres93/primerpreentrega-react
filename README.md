@@ -23,6 +23,7 @@ npm install
 npm run dev
 
 3. Para el correcto funcionamiento, es necesario tener seteadas las variables de entorno en el archivo .env. Las variables son:
+   
 VITE_API_KEY: la API key de Firebase.
 
 VITE_AUTH_DOMAIN: el dominio de autenticación de Firebase.
