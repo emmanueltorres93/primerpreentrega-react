@@ -32,5 +32,5 @@ VITE_MESSAGING_SENDER_ID: el ID del sender de Firebase.
 VITE_APP_ID: el ID de la aplicación de Firebase.                              
 
 
-https://github.com/emmanueltorres93/primerpreentrega-react/assets/130512738/6e8cc2cb-2897-45ca-930d-d90959e4aa9a
+https://github.com/emmanueltorres93/primerpreentrega-react/assets/130512738/0a6973d4-491c-4470-9c53-57110bb378ce
 
