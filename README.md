@@ -30,3 +30,7 @@ VITE_PROJECT_ID: el ID del proyecto de Firebase.
 VITE_STORAGE_BUCKET: el bucket de almacenamiento de Firebase.                        
 VITE_MESSAGING_SENDER_ID: el ID del sender de Firebase.                            
 VITE_APP_ID: el ID de la aplicación de Firebase.                              
+
+
+https://github.com/emmanueltorres93/primerpreentrega-react/assets/130512738/6e8cc2cb-2897-45ca-930d-d90959e4aa9a
+
