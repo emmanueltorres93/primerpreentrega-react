@@ -4,13 +4,21 @@ Descripción
 Proyecto final de CoderHouse hecho en React, es un Ecommerce de una pagina de venta de iluminacion artesanal.
 
 # Tecnologías Utilizadas
+
 React
+
 React Vite
+
 React Router DOM
+
 HTML/CSS
+
 JavaScript
+
 Bootstrap
+
 Bootstrap Icons
+
 Firebase
 
 # Instalación
@@ -20,6 +28,7 @@ https://github.com/emmanueltorres93/primerpreentrega-react.git
 2. Para levantar el proyecto se debe ejecutar los siguientes comandos:
 
 npm install
+
 npm run dev
 
 3. Para el correcto funcionamiento, es necesario tener seteadas las variables de entorno en el archivo .env. Las variables son:
