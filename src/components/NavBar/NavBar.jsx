@@ -9,7 +9,7 @@ const NavBar = () => {
 
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
-                        <NavLink to="/category/crañas" className="nav-link">Arañas</NavLink>
+                        <NavLink to="/category/arañas" className="nav-link">Arañas</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/category/lamparas" className="nav-link">Lamparas</NavLink>
