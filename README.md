@@ -1,8 +1,36 @@
-# React + Vite
+# Torres de Buenos Aires
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descripción
+Proyecto final de CoderHouse hecho en React, es un Ecommerce de una pagina de venta de iluminacion artesanal.
 
-Currently, two official plugins are available:
+# Tecnologías Utilizadas
+React
+React Vite
+React Router DOM
+HTML/CSS
+JavaScript
+Bootstrap
+Bootstrap Icons
+Firebase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Instalación
+1. Clonar el repositorio desde GitHub.
+https://github.com/emmanueltorres93/primerpreentrega-react.git
+
+2. Para levantar el proyecto se debe ejecutar los siguientes comandos:
+
+npm install
+npm run dev
+
+3. Para el correcto funcionamiento, es necesario tener seteadas las variables de entorno en el archivo .env. Las variables son:
+   
+VITE_API_KEY: la API key de Firebase.                     
+VITE_AUTH_DOMAIN: el dominio de autenticación de Firebase.                            
+VITE_PROJECT_ID: el ID del proyecto de Firebase.                
+VITE_STORAGE_BUCKET: el bucket de almacenamiento de Firebase.                        
+VITE_MESSAGING_SENDER_ID: el ID del sender de Firebase.                            
+VITE_APP_ID: el ID de la aplicación de Firebase.                              
+
+
+https://github.com/emmanueltorres93/primerpreentrega-react/assets/130512738/0a6973d4-491c-4470-9c53-57110bb378ce
+
